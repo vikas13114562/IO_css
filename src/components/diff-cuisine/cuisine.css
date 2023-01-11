@@ -1,0 +1,26 @@
+.df{
+    display: flex;
+}
+.dfc{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.bold{
+    font-weight: 700;
+    font-size: 20px;
+}
+.normal{
+    font-weight: 400;
+    font-size: 16px;
+}
+.cuisine-container{
+    padding: 100px 80px;
+    gap: 25px;
+}
+
+.item{
+    gap: 20px;
+    padding: 20px;
+    
+}
