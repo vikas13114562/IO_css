@@ -5,7 +5,7 @@ import '../diff-cuisine/cuisine.css'
 export default function ChefProfile(props) {
 
     const {imgSrc,fname,desc,style} = props.ele
-    console.log(style);
+    
     
   return (
     <div className='dfc profile-card' style={style} >

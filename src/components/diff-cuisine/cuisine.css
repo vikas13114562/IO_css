@@ -24,3 +24,23 @@
     padding: 20px;
     
 }
+
+.social {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 0.5px solid rgb(165, 161, 161);
+    cursor: pointer;
+}
+.dfjc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer{
+    width: 25%;
+    margin: 50px auto 20px auto;
+    
+    justify-content: space-between;
+}

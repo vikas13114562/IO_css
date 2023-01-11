@@ -49,11 +49,11 @@ export default function RightGrid() {
             <p>Lorem Ipsum is simply dummy text.</p>
           </div>
           <div className="right-bottom-btn">
-            <div className="right-btn white">
+            <div className="right-btn" style={{color:"white"}}>
               <div>Explore</div>
               <div className="arrow">{Arrow}</div>
             </div>
-            <div className="right-rate" >
+            <div className="right-rate" style={{color:"white"}} >
               <i className="fa-regular fa-star"></i>
               <div>Rated</div>
             </div>
