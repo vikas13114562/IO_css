@@ -20,7 +20,7 @@ export default function Chefs() {
             desc:"Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
             imgSrc:pic2,
             id:2,
-            style:{color:"black",backgroundColor: "white",padding:"40px 80px"}
+            style:{color:"black",backgroundColor: "white",padding:"40px 40px"}
         },
         {
             fname:"Amanda Dority",
