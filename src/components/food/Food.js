@@ -42,13 +42,12 @@ export default function Food() {
         <div className='food-div'>
             <Heading cName={"FOOD GUIDE"} />
             <div className='food-item-div'>
-                {
-                    foodArr.map(ele =>{
-                        return(
-                            <FoodItem key ={ele.id} ele = {ele} />
-                        )
-                    })
-                }
+                <FoodItem ele = {foodArr[0]} />
+                <FoodItem ele = {foodArr[1]} />
+            </div>
+            <div className='food-item-div'>
+                <FoodItem ele = {foodArr[2]} />
+                <FoodItem ele = {foodArr[3]} />
             </div>
             
         </div>
