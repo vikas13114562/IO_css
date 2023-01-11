@@ -7,7 +7,8 @@
     width: 100%;
     height: 1000px;
     background: url('../../img/food.png');
-    background-size: contain;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .vec-container{
@@ -21,7 +22,7 @@
 }
 
 .foot-item-container{
-    gap: 25px;
+    gap: 20px;
     width: 55%;
     text-align: center;
     
