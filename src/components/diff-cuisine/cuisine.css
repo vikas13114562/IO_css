@@ -7,12 +7,12 @@
     align-items: center;
 }
 .bold{
-    font-weight: 700;
-    font-size: 20px;
+    font-weight: 500;
+    font-size: 1.12rem;
 }
 .normal{
     font-weight: 400;
-    font-size: 16px;
+    font-size: .9rem;
 }
 .cuisine-container{
     padding: 100px 80px;
@@ -40,7 +40,7 @@
 
 .footer{
     width: 25%;
-    margin: 0px auto 20px auto;
+    margin: 2rem auto 1rem auto;
     
     justify-content: space-between;
 }

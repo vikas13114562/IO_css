@@ -26,19 +26,19 @@ export default function Food() {
         },
         {
             foodName:"FRUITS",
-            foodDesc:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's.",
+            foodDesc:"Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
             id:3,
             imgSrc:vec3,
         },
         {
             foodName:"HEALTHY PROTEIN",
-            foodDesc:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard.",
+            foodDesc:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
             id:4,
             imgSrc:vec4,
         }
     ]
   return (
-    <div className='food-container'>
+    <>
         <div className='food-div'>
             <Heading cName={"FOOD GUIDE"} />
             <div className='food-item-div'>
@@ -51,6 +51,6 @@ export default function Food() {
             </div>
             
         </div>
-    </div>
+    </>
   )
 }

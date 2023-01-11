@@ -5,7 +5,7 @@ import Vec from './Vec'
 
 export default function FoodItem(props) {
     const {imgSrc, foodDesc, foodName} = props.ele
-    console.log(props.ele);
+    
   return (
     <div className='dfc foot-item-container'>
         <Vec imgSrc = {imgSrc} />
